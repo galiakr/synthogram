@@ -1,22 +1,22 @@
 {
   "name": "synthogram",
-  "version": "0.4.3",
+  "version": "0.5.0",
   "description": "Synthesizer based on a drawing (sonogram) as input",
-  "main": "Gruntfile.js",
-  "dependencies": {},
-  "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-jshint": "~0.8.0",
-    "grunt-contrib-uglify": "~0.2.4",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-contrib-qunit": "~0.3.0",
-    "grunt-usemin": "~0.1.12",
-    "grunt-contrib-copy": "~0.4.1",
-    "grunt-contrib-clean": "~0.5.0"
-  },
+  "private": true,
+  "type": "module",
   "scripts": {
-    "test": "grunt test"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.0"
   },
   "repository": {
     "type": "git",
