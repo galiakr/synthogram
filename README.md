@@ -1,5 +1,4 @@
-synthogram
-==========
+# synthogram
 
 HTML5 Synthesizer for canvas paintings
 
@@ -12,8 +11,7 @@ Draw on the canvas and press play: each column of pixels is a step in the
 sequence, each row is a note in the selected scale, and darker pixels play
 louder.
 
-Running locally
----------------
+## Running locally
 
 The app is built with [React](https://react.dev) and [Vite](https://vitejs.dev).
 
@@ -24,8 +22,7 @@ npm run build    # production build into dist/
 npm run preview  # serve the production build
 ```
 
-Project layout
---------------
+## Project layout
 
 - `src/engine/` — the audio engine: oscillator bank (`synth.js`), note/scale
   math (`music.js`, `frequencies.js`), canvas pixel reading (`canvasSource.js`),
@@ -39,10 +36,9 @@ Project layout
 
 Creations are saved to `localStorage` with the Save button.
 
-Credits
--------
+## Credits
 
 - Development: [Amitay Dobo](http://www.doboism.com)
-- Graphic design: Galia Kropach
+- Graphic design: [Galia Kropach](https://www.linkedin.com/in/galiakr/)
 - Musical consultant: [Dror Shiman](http://drorshiman.com)
 - Title theme music: Ray Atencio
